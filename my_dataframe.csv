@@ -1,0 +1,161 @@
+logd_log_min,dis_W_cm3_of_plasma_volume,peak_to_peak_voltage_kV,upper_electrode_shape,matrix_category,genus,ph_before,rh_air,area_of_the_sample_cm2
+-0.060951936,0.36829243,6.4,plate,dry abiotic surface,Listeria,7.0,50.0,19.625
+0.412903931,0.36829243,6.4,plate,dry abiotic surface,Listeria,7.0,50.0,19.625
+0.031880165,0.36829243,6.4,plate,dry abiotic surface,Listeria,7.0,50.0,19.625
+-0.014283019,0.36829243,6.4,plate,dry abiotic surface,Listeria,7.0,50.0,19.625
+0.818225894,0.36829243,6.4,plate,dry abiotic surface,Listeria,7.0,50.0,19.625
+-0.075456625,0.36829243,6.4,plate,dry abiotic surface,Listeria,7.0,50.0,19.625
+0.481480346,0.36829243,6.4,plate,dry abiotic surface,Listeria,7.0,50.0,19.625
+0.569902248,0.36829243,6.4,plate,dry abiotic surface,Listeria,7.0,50.0,19.625
+0.019871257,0.36829243,6.4,plate,dry abiotic surface,Listeria,7.0,50.0,19.625
+0.85714396,0.36829243,6.4,plate,dry abiotic surface,Listeria,7.0,50.0,19.625
+1.705521613,0.36829243,7.0,plate,liquid medium on abiotic surface,Listeria,7.3,50.0,19.625
+1.154728207,0.36829243,7.0,plate,solid medium,Listeria,7.3,50.0,7.065
+1.56014584,0.36829243,7.0,plate,liquid medium on abiotic surface,Listeria,7.3,50.0,19.625
+1.457427693,0.36829243,7.0,plate,solid medium,Listeria,7.3,50.0,7.065
+-1.477121255,2.01541677,15.0,plate,dry abiotic surface,Escherichia,7.0,50.0,3.75
+0.152288344,0.07301935,8.5,rectangle,dry abiotic surface,Escherichia,7.0,50.0,3.75
+0.64738297,0.07301935,8.5,rectangle,dry abiotic surface,Escherichia,7.0,50.0,3.75
+0.46686762,0.07301935,8.5,rectangle,dry abiotic surface,Escherichia,7.0,50.0,3.75
+0.276461804,0.07301935,8.5,rectangle,dry abiotic surface,Escherichia,7.0,50.0,3.75
+0.571708832,0.07301935,8.5,rectangle,dry abiotic surface,Escherichia,7.0,50.0,3.75
+0.500312917,0.07301935,8.5,rectangle,dry abiotic surface,Escherichia,7.0,50.0,3.75
+0.15490196,0.091274188,8.5,rectangle,dry abiotic surface,Escherichia,7.0,50.0,3.75
+0.642065153,0.07301935,8.5,rectangle,dry abiotic surface,Escherichia,7.0,50.0,3.75
+0.393618635,0.091274188,8.5,rectangle,dry abiotic surface,Escherichia,7.0,50.0,3.75
+0.578396073,0.091274188,8.5,rectangle,dry abiotic surface,Escherichia,7.0,50.0,3.75
+0.136209822,0.136794331,4.5,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.225573371,0.11574905,5.7,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.034935004,0.099965088,6.3,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.080578968,0.136794331,4.5,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.22399124,0.11574905,5.7,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+-0.126256779,0.099965088,6.3,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.61488213,0.194668856,5.9,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+-0.253656114,0.205191497,6.4,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.127018061,0.210452817,6.8,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.472992235,0.194668856,5.9,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+-0.34553163,0.205191497,6.4,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.003027773,0.210452817,6.8,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.260203412,0.36829243,6.4,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.368857707,0.315679226,7.3,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.031677271,0.310417906,7.8,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.122994459,0.36829243,6.4,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.359264467,0.315679226,7.3,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+-0.086257801,0.310417906,7.8,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.313075915,0.36829243,6.5,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.481480346,0.36829243,6.5,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.542750002,0.505086762,7.0,plate,liquid medium on abiotic surface,Listeria,7.4,50.0,16.48748852
+0.584142688,0.505086762,7.0,plate,liquid medium on abiotic surface,Listeria,7.4,50.0,16.48748852
+0.629900178,0.505086762,7.0,plate,liquid medium on abiotic surface,Listeria,7.4,50.0,16.48748852
+0.408051429,0.505086762,7.0,plate,liquid medium on abiotic surface,Listeria,7.4,50.0,16.48748852
+0.681052701,0.505086762,7.0,plate,liquid medium on abiotic surface,Listeria,6.5,50.0,16.48748852
+0.629900178,0.505086762,7.0,plate,liquid medium on abiotic surface,Listeria,6.5,50.0,16.48748852
+0.438014652,0.505086762,7.0,plate,liquid medium on abiotic surface,Listeria,6.5,50.0,16.48748852
+-0.756301427,0.505086762,7.0,plate,solid medium,Listeria,7.4,50.0,16.48748852
+-0.491404274,0.505086762,7.0,plate,solid medium,Listeria,7.4,50.0,16.48748852
+-0.966085665,0.505086762,7.0,plate,solid medium,Listeria,7.4,50.0,16.48748852
+-0.260955352,0.505086762,7.0,plate,solid medium,Listeria,7.4,50.0,16.48748852
+-0.302348038,0.505086762,7.0,plate,solid medium,Listeria,7.4,50.0,16.48748852
+-0.360339985,0.505086762,7.0,plate,solid medium,Listeria,6.5,50.0,16.48748852
+-0.495038558,0.505086762,7.0,plate,solid medium,Listeria,6.5,50.0,16.48748852
+0.222414852,0.505086762,7.0,plate,solid medium,Listeria,6.5,50.0,16.48748852
+0.584142688,0.505086762,7.0,plate,solid medium,Listeria,6.5,50.0,16.48748852
+0.152778923,0.505086762,7.0,plate,solid medium,Listeria,5.5,50.0,16.48748852
+-0.078615144,0.505086762,7.0,plate,solid medium,Listeria,5.5,50.0,16.48748852
+0.504961442,0.505086762,7.0,plate,solid medium,Listeria,5.5,50.0,16.48748852
+0.470199335,0.505086762,7.0,plate,solid medium,Listeria,5.5,50.0,16.48748852
+-0.519661033,0.505086762,7.0,plate,dry abiotic surface,Listeria,7.4,50.0,19.62873278
+-0.817257853,0.505086762,7.0,plate,dry abiotic surface,Listeria,7.4,50.0,19.62873278
+-0.694610913,0.505086762,7.0,plate,dry abiotic surface,Listeria,7.4,50.0,19.62873278
+-0.938301546,0.505086762,7.0,plate,dry abiotic surface,Listeria,7.4,50.0,19.62873278
+-0.786925175,0.505086762,7.0,plate,dry abiotic surface,Listeria,7.4,50.0,19.62873278
+-0.839103186,0.505086762,7.0,plate,dry abiotic surface,Listeria,7.4,50.0,19.62873278
+-0.290918576,0.505086762,7.0,plate,dry abiotic surface,Listeria,6.5,50.0,19.62873278
+-0.415857312,0.505086762,7.0,plate,dry abiotic surface,Listeria,6.5,50.0,19.62873278
+-0.614514399,0.505086762,7.0,plate,dry abiotic surface,Listeria,6.5,50.0,19.62873278
+-0.194008563,0.505086762,7.0,plate,dry abiotic surface,Listeria,6.5,50.0,19.62873278
+-0.727611173,0.505086762,7.0,plate,dry abiotic surface,Listeria,5.5,50.0,19.62873278
+-0.72335335,0.505086762,7.0,plate,dry abiotic surface,Listeria,5.5,50.0,19.62873278
+-0.468935756,0.505086762,7.0,plate,dry abiotic surface,Listeria,5.5,50.0,19.62873278
+-0.714710389,0.505086762,7.0,plate,dry abiotic surface,Listeria,5.5,50.0,19.62873278
+0.040074643,0.36829243,6.4,plate,dry abiotic surface,Salmonella,7.0,50.0,19.625
+-0.025095888,0.36829243,6.4,plate,dry abiotic surface,Salmonella,7.0,50.0,19.625
+0.070037867,0.36829243,6.4,plate,dry abiotic surface,Salmonella,7.0,50.0,19.625
+0.088136089,0.36829243,6.4,plate,dry abiotic surface,Salmonella,7.0,50.0,19.625
+0.771229331,0.36829243,6.4,plate,dry abiotic surface,Salmonella,7.0,50.0,19.625
+-0.064217323,0.36829243,6.4,plate,dry abiotic surface,Salmonella,7.0,50.0,19.625
+-0.070675353,0.36829243,6.4,plate,dry abiotic surface,Salmonella,7.0,50.0,19.625
+0.728825482,0.36829243,6.4,plate,dry abiotic surface,Salmonella,7.0,50.0,19.625
+0.739044648,0.36829243,6.4,plate,dry abiotic surface,Salmonella,7.0,50.0,19.625
+0.663323934,0.36829243,6.4,plate,dry abiotic surface,Salmonella,7.0,50.0,19.625
+0.353693766,0.505086762,7.0,plate,liquid medium on abiotic surface,Salmonella,7.4,50.0,16.48748852
+0.504961442,0.505086762,7.0,plate,liquid medium on abiotic surface,Salmonella,7.4,50.0,16.48748852
+0.438014652,0.505086762,7.0,plate,liquid medium on abiotic surface,Salmonella,7.4,50.0,16.48748852
+0.353693766,0.505086762,7.0,plate,liquid medium on abiotic surface,Salmonella,7.4,50.0,16.48748852
+0.584142688,0.505086762,7.0,plate,liquid medium on abiotic surface,Salmonella,7.4,50.0,16.48748852
+0.438014652,0.505086762,7.0,plate,liquid medium on abiotic surface,Salmonella,7.4,50.0,16.48748852
+0.283112692,0.505086762,7.0,plate,liquid medium on abiotic surface,Salmonella,6.5,50.0,16.48748852
+0.470199335,0.505086762,7.0,plate,liquid medium on abiotic surface,Salmonella,6.5,50.0,16.48748852
+0.12174469,0.505086762,7.0,plate,liquid medium on abiotic surface,Salmonella,6.5,50.0,16.48748852
+0.283112692,0.505086762,7.0,plate,liquid medium on abiotic surface,Salmonella,6.5,50.0,16.48748852
+0.584142688,0.505086762,7.0,plate,liquid medium on abiotic surface,Salmonella,5.5,50.0,16.48748852
+0.542750002,0.505086762,7.0,plate,liquid medium on abiotic surface,Salmonella,5.5,50.0,16.48748852
+0.629900178,0.505086762,7.0,plate,liquid medium on abiotic surface,Salmonella,5.5,50.0,16.48748852
+0.542750002,0.505086762,7.0,plate,liquid medium on abiotic surface,Salmonella,5.5,50.0,16.48748852
+-0.171732168,0.505086762,7.0,plate,solid medium,Salmonella,7.4,50.0,16.48748852
+-0.228770669,0.505086762,7.0,plate,solid medium,Salmonella,7.4,50.0,16.48748852
+0.16916934,0.505086762,7.0,plate,solid medium,Salmonella,7.4,50.0,16.48748852
+0.222414852,0.505086762,7.0,plate,solid medium,Salmonella,7.4,50.0,16.48748852
+0.353693766,0.505086762,7.0,plate,solid medium,Salmonella,7.4,50.0,16.48748852
+0.353693766,0.505086762,7.0,plate,solid medium,Salmonella,7.4,50.0,16.48748852
+-0.279180173,0.505086762,7.0,plate,solid medium,Salmonella,6.5,50.0,16.48748852
+0.470199335,0.505086762,7.0,plate,solid medium,Salmonella,6.5,50.0,16.48748852
+0.982082696,0.505086762,7.0,plate,solid medium,Salmonella,6.5,50.0,16.48748852
+0.438014652,0.505086762,7.0,plate,solid medium,Salmonella,6.5,50.0,16.48748852
+0.629900178,0.505086762,7.0,plate,solid medium,Salmonella,5.5,50.0,16.48748852
+0.328870182,0.505086762,7.0,plate,solid medium,Salmonella,5.5,50.0,16.48748852
+0.885172683,0.505086762,7.0,plate,solid medium,Salmonella,5.5,50.0,16.48748852
+0.982082696,0.505086762,7.0,plate,solid medium,Salmonella,5.5,50.0,16.48748852
+0.438014652,0.505086762,7.0,plate,dry abiotic surface,Salmonella,7.4,50.0,19.62873278
+0.152778923,0.505086762,7.0,plate,dry abiotic surface,Salmonella,7.4,50.0,19.62873278
+-0.171732168,0.505086762,7.0,plate,dry abiotic surface,Salmonella,7.4,50.0,19.62873278
+-0.402629047,0.505086762,7.0,plate,dry abiotic surface,Salmonella,7.4,50.0,19.62873278
+-0.069069826,0.505086762,7.0,plate,dry abiotic surface,Salmonella,7.4,50.0,19.62873278
+0.12174469,0.505086762,7.0,plate,dry abiotic surface,Salmonella,7.4,50.0,19.62873278
+0.261923393,0.505086762,7.0,plate,dry abiotic surface,Salmonella,6.5,50.0,19.62873278
+-0.48773932,0.505086762,7.0,plate,dry abiotic surface,Salmonella,6.5,50.0,19.62873278
+-0.106053392,0.505086762,7.0,plate,dry abiotic surface,Salmonella,6.5,50.0,19.62873278
+0.438014652,0.505086762,7.0,plate,dry abiotic surface,Salmonella,6.5,50.0,19.62873278
+0.241720007,0.505086762,7.0,plate,dry abiotic surface,Salmonella,5.5,50.0,19.62873278
+0.136984656,0.505086762,7.0,plate,dry abiotic surface,Salmonella,5.5,50.0,19.62873278
+0.805991437,0.505086762,7.0,plate,dry abiotic surface,Salmonella,5.5,50.0,19.62873278
+0.739044648,0.505086762,7.0,plate,dry abiotic surface,Salmonella,5.5,50.0,19.62873278
+-0.026162515,0.136794331,4.5,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.815751274,0.11574905,5.7,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.321296246,0.099965088,6.3,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+-0.022238678,0.136794331,4.5,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.028645181,0.11574905,5.7,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.171122482,0.099965088,6.3,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.635566729,0.194668856,5.9,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.02623466,0.205191497,6.4,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.151707913,0.210452817,6.8,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.56020468,0.194668856,5.9,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+-0.096645924,0.205191497,6.4,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.120498507,0.210452817,6.8,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.245686194,0.36829243,6.4,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.40182316,0.315679226,7.3,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.024236063,0.310417906,7.8,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.176468578,0.36829243,6.4,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.253728914,0.315679226,7.3,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+-0.012454408,0.310417906,7.8,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.959173417,0.36829243,6.5,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+0.918249142,0.36829243,6.5,plate,dry abiotic surface,Listeria,7.0,50.0,19.63495408
+-0.073868709,0.36829243,6.5,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+-0.052512342,0.36829243,6.5,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.77815125,0.023441163,25.0,rectangle,dry abiotic surface,Salmonella,7.0,0.0,1.0
+0.380211242,0.023441163,25.0,rectangle,dry abiotic surface,Salmonella,7.0,0.0,1.0
+0.440909082,0.023441163,25.0,rectangle,dry abiotic surface,Salmonella,7.0,0.0,1.0
+0.315970345,0.023441163,25.0,rectangle,dry abiotic surface,Salmonella,7.0,40.0,1.0
+0.152288344,0.023441163,25.0,rectangle,dry abiotic surface,Salmonella,7.0,80.0,1.0
+0.301596098,0.36829243,6.5,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
+0.174773217,0.36829243,6.5,plate,dry abiotic surface,Salmonella,7.0,50.0,19.63495408
