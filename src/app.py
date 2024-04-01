@@ -11,7 +11,7 @@ app = Dash(__name__, title="ntp_interactive_plot_test")
 server = app.server
 
 # Load your dataset
-file_path = 'https://github.com/gpampoukis/ntp_interactive_plot/blob/583c584b00ce5d7ae4ba3bc89145cd9e12a9d5a7/my_dataframe.csv'
+file_path = 'https://raw.githubusercontent.com/gpampoukis/ntp_interactive_plot/583c584b00ce5d7ae4ba3bc89145cd9e12a9d5a7/my_dataframe.csv'
 df = pd.read_csv(file_path)
 
 # Extract unique values for matrix_category, genus, upper_electrode_shape (if available)
