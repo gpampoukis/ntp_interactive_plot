@@ -22,7 +22,7 @@ upper_electrode_shape_values = df['upper_electrode_shape'].unique() if 'upper_el
 # Define the layout of the Dash application
 app.layout = html.Div([
     # Title of the dashboard
-    html.H4('Overview of all D-values obtained for Dielectric barrier discharge (DBD) plotted against the dissipated power per plasma volume'),
+    html.H4('Overview of the D-values obtained for DBD, plotted against the dissipated power per plasma volume'),
 
     # Graph component to display the scatter plot
     dcc.Graph(id="scatter-plot"),
