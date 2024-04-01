@@ -6,7 +6,7 @@ from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
 import pandas as pd
 
-app = Dash(__name__, title="ntp_interactive_plot_test")
+app = Dash(__name__, title="Non-thermal plasma decontamination efficacy")
 
 server = app.server
 
