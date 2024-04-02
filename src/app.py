@@ -102,8 +102,7 @@ def update_bar_chart(ph_before_range, area_of_the_sample_cm2_range, selected_mat
         df[mask], 
         x="dis_W_cm3_of_plasma_volume", 
         y="logd_log_min", 
-        color="genus", 
-        size='area_of_the_sample_cm2', 
+        color="genus",
         hover_data=['area_of_the_sample_cm2', 'ph_before', 'matrix_category', 'upper_electrode_shape'],
     )
    
