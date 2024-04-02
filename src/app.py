@@ -22,13 +22,17 @@ upper_electrode_shape_values = df['upper_electrode_shape'].unique() if 'upper_el
 # Define the layout of the Dash application
 app.layout = html.Div([
     # Title of the dashboard
-    html.H4('Overview of the D-values obtained for DBD plotted against the dissipated power per plasma volume'),
+    html.H4('Interactive plotting of the most important factors affecting DBD decontamnination efficacy'),
 
     # Graph component to display the scatter plot
     dcc.Graph(id="scatter-plot"),
 
     # Slider for filtering by medium area_of_the_sample_cm2
-    html.P("Filter by area_of_the_sample_cm2:"),
+    html.P([
+    'Filter by area of the sample (cm',
+    html.Sup('2'),  # This makes "2" superscript
+    '):'
+    ]),
     dcc.RangeSlider(
         id='area_of_the_sample_cm2-range-slider', 
         min=df['area_of_the_sample_cm2'].min(), 
@@ -37,7 +41,7 @@ app.layout = html.Div([
     ),
 
     # Slider for filtering by food pH
-    html.P("Filter by ph_before:"),
+    html.P("Filter by pH:"),
     dcc.RangeSlider(
         id='ph-range-slider', 
         min=df['ph_before'].min(), 
@@ -46,7 +50,7 @@ app.layout = html.Div([
     ),
 
     # Dropdown for selecting matrix_category values
-    html.P("Select matrix_category:"),
+    html.P("Select matrix category:"),
     dcc.Dropdown(
         id='matrix_category-dropdown', 
         options=[{'label': i, 'value': i} for i in matrix_category_values], 
@@ -55,7 +59,7 @@ app.layout = html.Div([
     ),
 
     # Dropdown for selecting upper_electrode_shape values
-    html.P("Select upper_electrode_shape:"),
+    html.P("Select upper electrode shape:"),
     dcc.Dropdown(
         id='upper_electrode_shape-dropdown', 
         options=[{'label': i, 'value': i} for i in upper_electrode_shape_values], 
@@ -101,6 +105,12 @@ def update_bar_chart(ph_before_range, area_of_the_sample_cm2_range, selected_mat
         color="genus", 
         size='area_of_the_sample_cm2', 
         hover_data=['area_of_the_sample_cm2', 'ph_before', 'matrix_category', 'upper_electrode_shape'],
+    )
+   
+   # Update axis titles
+   fig.update_layout(
+       xaxis_title="Dissipated power per plasma volume (W/cm³)",
+       yaxis_title="Log₁₀<i>D</i> (log min)"
     )
    
    return fig
