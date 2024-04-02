@@ -22,7 +22,7 @@ upper_electrode_shape_values = df['upper_electrode_shape'].unique() if 'upper_el
 # Define the layout of the Dash application
 app.layout = html.Div([
     # Title of the dashboard
-    html.H4('Interactive plotting of the most important factors affecting DBD decontamnination efficacy'),
+    html.H4('Interactive plotting of the most important factors affecting DBD decontamination efficacy'),
 
     # Graph component to display the scatter plot
     dcc.Graph(id="scatter-plot"),
