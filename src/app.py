@@ -2,6 +2,7 @@
  # @ Create Time: 2024-04-01 16:48:09.342644
 '''
 
+
 from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
 import pandas as pd
@@ -19,6 +20,10 @@ genus_values = df['genus'].unique() if 'genus' in df.columns else []
 matrix_category_values = df['matrix_category'].unique() if 'matrix_category' in df.columns else []
 upper_electrode_shape_values = df['upper_electrode_shape'].unique() if 'upper_electrode_shape' in df.columns else []
 
+# Define rounded min and max values for the area_of_the_sample slider (optional)
+min_area_rounded = round(df['area_of_the_sample_cm2'].min(), 1)
+max_area_rounded = round(df['area_of_the_sample_cm2'].max(), 1)
+
 # Define the layout of the Dash application
 app.layout = html.Div([
     # Title of the dashboard
@@ -35,9 +40,9 @@ app.layout = html.Div([
     ]),
     dcc.RangeSlider(
         id='area_of_the_sample_cm2-range-slider', 
-        min=df['area_of_the_sample_cm2'].min(), 
-        max=df['area_of_the_sample_cm2'].max(), 
-        value=[df['area_of_the_sample_cm2'].min(), df['area_of_the_sample_cm2'].max()]
+        min=min_area_rounded, 
+        max=max_area_rounded, 
+        value=[min_area_rounded, max_area_rounded]
     ),
 
     # Slider for filtering by food pH
@@ -90,19 +95,26 @@ def update_bar_chart(ph_before_range, area_of_the_sample_cm2_range, selected_mat
     Returns:
     - A plotly express figure object that represents the updated scatter plot.
     """ 
-   
+
+   # Apply rounding for filtering purpose without modifying original df
+   rounded_area_values = df['area_of_the_sample_cm2'].round(1)
+    
+   # Adjust the area_of_the_sample_cm2_range to account for the rounding
+   rounded_area_range = [round(area_of_the_sample_cm2_range[0], 1), round(area_of_the_sample_cm2_range[1], 1)]
+    
    mask = (
         df['ph_before'].between(*ph_before_range) &
-        df['area_of_the_sample_cm2'].between(*area_of_the_sample_cm2_range) &
+        rounded_area_values.between(*rounded_area_range) & #otherwise this slider was not working properly (reload of the dataset)
         df['matrix_category'].isin(selected_matrix_categories if isinstance(selected_matrix_categories, list) else [selected_matrix_categories]) &
         df['upper_electrode_shape'].isin(selected_upper_electrode_shapes if isinstance(selected_upper_electrode_shapes, list) else [selected_upper_electrode_shapes])
     )
-   
+    
    fig = px.scatter(
         df[mask], 
         x="dis_W_cm3_of_plasma_volume", 
         y="logd_log_min", 
-        color="genus",
+        color="genus", 
+        #size='area_of_the_sample_cm2', 
         hover_data=['area_of_the_sample_cm2', 'ph_before', 'matrix_category', 'upper_electrode_shape'],
     )
    
