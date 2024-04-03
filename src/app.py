@@ -2,7 +2,6 @@
  # @ Create Time: 2024-04-01 16:48:09.342644
 '''
 
-
 from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
 import pandas as pd
