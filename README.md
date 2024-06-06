@@ -1,4 +1,4 @@
-# Dash Default Template: ntp_interactive_plot_test
+# Dash Default Template: ntp_interactive_plot_test (Interactive plotting of the most important factors affecting DBD decontamination efficacy)
 
 Created on 2024-04-01 16:48:09.300623
 
@@ -10,7 +10,7 @@ See the [Dash Documentation](https://dash.plotly.com/introduction) for more info
 
 Run `src/app.py` and navigate to http://127.0.0.1:8050/ in your browser.
 
-## Accessing the Deployed App
+## Accessing the deployed app
 
 The app is also deployed and accessible to users online. Please note that it may take up to 1 minute to load for the first time:
 
